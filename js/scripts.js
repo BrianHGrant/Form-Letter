@@ -1,6 +1,6 @@
 $(function() {
   $("form").submit(function(event) {
-    var nameInput = $("input#name").val();
+    var nameInput = $("input#name").val().toUpperCase();
 
     $(".name").text(nameInput);
 
